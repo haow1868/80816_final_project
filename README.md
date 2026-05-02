@@ -17,7 +17,7 @@ The pipeline has two steps:
 | `Cstar_latentPC.R` | CStaR with latent PC for binary MDD outcome. |
 | `causal_discovery_meth_RNA.R` | Local CpG-gene-MDD networks per top gene. |
 | `latent_pc.R` | Latent PC implementation helper functions (Cai et al. 2022). |
-| `utility.R` | Helper functions Cai et al. 2022). |
+| `utility.R` | Helper functions (Cai et al. 2022). |
 
 Run in the order: `Meth_preprocess.R` → `Cstar_latentPC.R` → 
 `causal_discovery_meth_RNA.R`.
